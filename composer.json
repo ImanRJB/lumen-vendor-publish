@@ -1,0 +1,37 @@
+{
+  "name": "imanrjb/lumen-vendor-publish",
+  "description": "vendor:publish for Lumen framework.",
+  "keywords": [],
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "laravel/passport": "^10.3",
+    "hisorange/browser-detect": "^4.4",
+    "nyholm/psr7": "^1.5",
+    "illuminate/console": "^9.0",
+    "illuminate/filesystem": "^9.0",
+    "illuminate/support": "^9.0",
+    "league/flysystem": "^3.0"
+  },
+  "authors": [
+    {
+      "name": "Iman Rajabi",
+      "email": "iman.rjb@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LumenVendorPublish\\": "src/"
+    }
+  },
+  "config": {
+    "platform-check": false
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LumenVendorPublish\\Src\\LumenVendorPublishServiceProvider"
+      ]
+    }
+  }
+}
