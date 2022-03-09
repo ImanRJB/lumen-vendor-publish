@@ -5,9 +5,6 @@
   "license": "MIT",
   "type": "library",
   "require": {
-    "laravel/passport": "^10.3",
-    "hisorange/browser-detect": "^4.4",
-    "nyholm/psr7": "^1.5",
     "illuminate/console": "^9.0",
     "illuminate/filesystem": "^9.0",
     "illuminate/support": "^9.0",
