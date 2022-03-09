@@ -3,7 +3,7 @@
 namespace LumenVendorPublish;
 
 use Illuminate\Support\ServiceProvider;
-use LumenVendorPublish\Console\Command\VendorPublishCommand;
+use LumenVendorPublish\Console\Commands\VendorPublishCommand;
 
 class LumenVendorPublishServiceProvider extends ServiceProvider
 {

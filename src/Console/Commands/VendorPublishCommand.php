@@ -1,6 +1,6 @@
 <?php
 
-namespace LumenVendorPublish\Console\Command;
+namespace LumenVendorPublish\Console\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
